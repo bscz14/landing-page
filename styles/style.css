@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+  color: white;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  color: #202556;
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: #202556;
+}
+
+a:hover {
+  color: #49ebad;
+  transition: 0.3s all;
+}
+
+#login-btn {
+  background-color: #49ebad;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#login-btn:hover {
+  background-color: #49ebad;
+  color: white;
+}
+
+#started:hover {
+  background-color: #49ebad;
+  color: white;
+}
+
+#started {
+  background-color: #49ebad;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscricao-btn:hover {
+  color: #fff;
+  background-color: #68706d46;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscricao-btn {
+  background-color: #68706d46;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #202556;
+  font-size: 56px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+
+span {
+  color: #202556;
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinslight;
+  color: #202556;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: rgb(132, 14, 201);
+  color: white;
+  font-weight: bold;
+}
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
